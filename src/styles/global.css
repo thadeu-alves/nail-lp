@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.container {
+    max-width: 1020px;
+}
+
+:root {
+    --pink: #f5b7ca;
+    --green: #40c4aa;
+    --black: #1a1b25;
+}
