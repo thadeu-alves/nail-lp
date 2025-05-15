@@ -9,8 +9,8 @@ export function Servicos() {
     ];
     return (
         <div className="">
-            <div className="px-6 py-8 space-y-4">
-                <h1 className="font-semibold text-xl">
+            <div className="p-8 py-10 space-y-4">
+                <h1 className="font-semibold text-3xl">
                     Serviços
                 </h1>
                 <div className="grid grid-cols-3 gap-4">

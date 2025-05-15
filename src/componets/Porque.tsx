@@ -8,8 +8,8 @@ export function Porque() {
 
     return (
         <div className="bg-[var(--pink)] text-[var(--black)]">
-            <div className="px-6 py-8 space-y-4">
-                <h1 className="font-semibold text-xl">
+            <div className="p-8 py-10 space-y-4">
+                <h1 className="font-semibold text-3xl">
                     Por que me escolher?
                 </h1>
                 <ul className="flex flex-col gap-2">
@@ -17,7 +17,7 @@ export function Porque() {
                         return (
                             <li
                                 key={motivo}
-                                className="text-white text-sm font-bold"
+                                className="text-white text-lg  font-bold"
                             >
                                 {motivo}
                             </li>
